@@ -194,6 +194,29 @@
         }
       ],
       "apiKey": "c78201e7-1ccc-46fb-aebe-4caee23dbe11"
+    },
+    "ollama": {
+      "baseUrl": "http://127.0.0.1:11434",
+      "api": "ollama",
+      "models": [
+        {
+          "id": "nomic-embed-text:latest",
+          "name": "nomic-embed-text:latest",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 2048,
+          "maxTokens": 8192
+        }
+      ],
+      "apiKey": "ollama-local"
     }
   }
 }
