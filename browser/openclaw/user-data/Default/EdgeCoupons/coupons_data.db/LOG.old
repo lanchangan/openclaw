@@ -1,6 +1,0 @@
-2026/03/16-23:53:41.221 420c Reusing MANIFEST C:\Users\LWS\.openclaw\browser\openclaw\user-data\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
-2026/03/16-23:53:41.222 420c Recovering log #4
-2026/03/16-23:53:41.222 420c Reusing old log C:\Users\LWS\.openclaw\browser\openclaw\user-data\Default\EdgeCoupons/coupons_data.db/000004.log 
-2026/03/16-23:53:41.242 5890 Level-0 table #8: started
-2026/03/16-23:53:41.245 5890 Level-0 table #8: 686780 bytes OK
-2026/03/16-23:53:41.248 5890 Delete type=0 #4

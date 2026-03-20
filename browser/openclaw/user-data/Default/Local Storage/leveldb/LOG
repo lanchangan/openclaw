@@ -1,9 +1,0 @@
-2026/03/18-01:05:51.616 4a9c Reusing MANIFEST C:\Users\LWS\.openclaw\browser\openclaw\user-data\Default\Local Storage\leveldb/MANIFEST-000001
-2026/03/18-01:05:51.620 4a9c Recovering log #106
-2026/03/18-01:05:51.622 4a9c Reusing old log C:\Users\LWS\.openclaw\browser\openclaw\user-data\Default\Local Storage\leveldb/000106.log 
-2026/03/18-01:06:51.632 4dd4 Level-0 table #111: started
-2026/03/18-01:06:51.638 4dd4 Level-0 table #111: 46107 bytes OK
-2026/03/18-01:06:51.640 4dd4 Delete type=0 #106
-2026/03/18-08:12:51.626 4dd4 Level-0 table #113: started
-2026/03/18-08:12:51.630 4dd4 Level-0 table #113: 25468 bytes OK
-2026/03/18-08:12:51.632 4dd4 Delete type=0 #110
