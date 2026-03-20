@@ -1,10 +1,10 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.3.13",
-    "lastTouchedAt": "2026-03-16T16:12:54.471Z"
+    "lastTouchedAt": "2026-03-19T14:12:56.374Z"
   },
   "wizard": {
-    "lastRunAt": "2026-03-16T16:12:54.438Z",
+    "lastRunAt": "2026-03-19T14:12:56.339Z",
     "lastRunVersion": "2026.3.13",
     "lastRunCommand": "doctor",
     "lastRunMode": "local"
@@ -132,7 +132,8 @@
           "appId": "cli_a93fc496a2b89bde",
           "appSecret": "jUjnf9I9LKkG2GhXHGsPWc1z0hbM4JkJ"
         }
-      }
+      },
+      "groupAllowFrom": "[oc_959ee261398abd06dd44199eb5ec0f82]"
     }
   },
   "gateway": {

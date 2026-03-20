@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.3.13",
-    "lastTouchedAt": "2026-03-14T08:38:37.530Z"
+    "lastTouchedAt": "2026-03-14T16:02:15.507Z"
   },
   "wizard": {
     "lastRunAt": "2026-03-14T07:00:39.316Z",
@@ -20,7 +20,7 @@
   "agents": {
     "defaults": {
       "model": {
-        "primary": "volcengine-plan/kimi-k2.5"
+        "primary": "volcengine-plan/ark-code-latest"
       },
       "models": {
         "volcengine/doubao-seed-1-8-251228": {},
@@ -41,11 +41,25 @@
       {
         "id": "main",
         "model": "volcengine-plan/kimi-k2.5"
+      },
+      {
+        "id": "my_robot_01",
+        "name": "my_robot_01",
+        "workspace": "C:\\Users\\LWS\\.openclaw\\workspace-my_robot_01",
+        "agentDir": "C:\\Users\\LWS\\.openclaw\\agents\\my_robot_01\\agent",
+        "model": "volcengine-plan/ark-code-latest"
+      },
+      {
+        "id": "zx_robot_01",
+        "name": "zx_robot_01",
+        "workspace": "C:\\Users\\LWS\\.openclaw\\workspace-zx_robot_01",
+        "agentDir": "C:\\Users\\LWS\\.openclaw\\agents\\zx_robot_01\\agent",
+        "model": "volcengine-plan/ark-code-latest"
       }
     ]
   },
   "tools": {
-    "profile": "full",
+    "profile": "full"
   },
   "bindings": [
     {
@@ -92,17 +106,17 @@
       "groupPolicy": "open",
       "accounts": {
         "default": {
-      	  "appId": "cli_a92dc000da789cc2",
-      	  "appSecret": "uRStntqXMbvPZLoAF7XYufH2RIDxExxZ"
-	},
-	"my_robot_01": {
-      	  "appId": "cli_a93fd3bce2785cd5",
-      	  "appSecret": "vnKlxTFj2pPTDS6cSh6nMhlM53ckMOAm"
-	},
-	"zx_robot_01": {
-      	  "appId": "cli_a93fc496a2b89bde",
-      	  "appSecret": "jUjnf9I9LKkG2GhXHGsPWc1z0hbM4JkJ"
-	}
+          "appId": "cli_a92dc000da789cc2",
+          "appSecret": "uRStntqXMbvPZLoAF7XYufH2RIDxExxZ"
+        },
+        "my_robot_01": {
+          "appId": "cli_a93fd3bce2785cd5",
+          "appSecret": "vnKlxTFj2pPTDS6cSh6nMhlM53ckMOAm"
+        },
+        "zx_robot_01": {
+          "appId": "cli_a93fc496a2b89bde",
+          "appSecret": "jUjnf9I9LKkG2GhXHGsPWc1z0hbM4JkJ"
+        }
       }
     }
   },

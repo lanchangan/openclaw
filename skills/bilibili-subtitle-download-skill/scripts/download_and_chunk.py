@@ -6,6 +6,12 @@ import asyncio
 import requests
 from bilibili_api import login_v2, Credential
 
+# Fix encoding for Windows
+if sys.platform == 'win32':
+    import io
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
+
 # Configuration
 COOKIE_FILE = os.path.expanduser('~/.openclaw/workspace/bilibili_cookie.txt')
 CHARS_PER_CHUNK = 100000 

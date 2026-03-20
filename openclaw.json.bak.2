@@ -1,12 +1,12 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.3.13",
-    "lastTouchedAt": "2026-03-14T16:02:15.507Z"
+    "lastTouchedAt": "2026-03-16T16:12:54.471Z"
   },
   "wizard": {
-    "lastRunAt": "2026-03-14T07:00:39.316Z",
+    "lastRunAt": "2026-03-16T16:12:54.438Z",
     "lastRunVersion": "2026.3.13",
-    "lastRunCommand": "onboard",
+    "lastRunCommand": "doctor",
     "lastRunMode": "local"
   },
   "auth": {
@@ -68,6 +68,20 @@
         "channel": "feishu",
         "accountId": "default"
       }
+    },
+    {
+      "agentId": "my_robot_01",
+      "match": {
+        "channel": "feishu",
+        "accountId": "my_robot_01"
+      }
+    },
+    {
+      "agentId": "zx_robot_01",
+      "match": {
+        "channel": "feishu",
+        "accountId": "zx_robot_01"
+      }
     }
   ],
   "commands": {
@@ -104,6 +118,7 @@
       "connectionMode": "websocket",
       "domain": "feishu",
       "groupPolicy": "open",
+      "requireMention": true,
       "accounts": {
         "default": {
           "appId": "cli_a92dc000da789cc2",
