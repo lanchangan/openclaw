@@ -1,1 +1,2 @@
 {"timestamp":"2026-03-15T03:42:00.913Z","action":"reset","sessionKey":"agent:main:feishu:direct:ou_e7a32d874706bf82f2d409b0427b7e9e","senderId":"unknown","source":"gateway:sessions.reset"}
+{"timestamp":"2026-03-21T15:04:23.558Z","action":"new","sessionKey":"agent:main:main","senderId":"openclaw-control-ui","source":"webchat"}

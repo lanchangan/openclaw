@@ -16,7 +16,7 @@ web:
   
   # Tavily Search 配置 (已启用)
   tavily:
-    api_key: "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"
+    api_key: "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"
     max_results: 10
     search_depth: "advanced"  # 可选: basic 或 advanced
 
