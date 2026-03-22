@@ -8,10 +8,10 @@
       "name": "每日新闻与市场早报",
       "enabled": true,
       "createdAtMs": 1774099033259,
-      "updatedAtMs": 1774104038052,
+      "updatedAtMs": 1774104063935,
       "schedule": {
         "kind": "cron",
-        "expr": "*/5 * * * *",
+        "expr": "0 7 * * *",
         "tz": "Asia/Shanghai"
       },
       "sessionTarget": "isolated",
@@ -30,7 +30,7 @@
         "bestEffort": true
       },
       "state": {
-        "nextRunAtMs": 1774104300000,
+        "nextRunAtMs": 1774134000000,
         "lastRunAtMs": 1774104000017,
         "lastRunStatus": "error",
         "lastStatus": "error",
@@ -38,8 +38,8 @@
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "consecutiveErrors": 1,
-        "lastError": "⚠️ API rate limit reached. Please try again later.",
-        "lastErrorReason": "rate_limit"
+        "lastErrorReason": "rate_limit",
+        "runningAtMs": 1774134000015
       },
       "deleteAfterRun": false
     },

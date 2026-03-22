@@ -75,6 +75,13 @@
         "model": "volcengine-plan/ark-code-latest"
       },
       {
+        "id": "my_work_robot",
+        "name": "my_work_robot",
+        "workspace": "C:\\Users\\LWS\\.openclaw\\workspace-my_work_robot",
+        "agentDir": "C:\\Users\\LWS\\.openclaw\\agents\\my_work_robot\\agent",
+        "model": "volcengine-plan/ark-code-latest"
+      },
+      {
         "id": "zx_assistant_01",
         "name": "zx_assistant_01",
         "workspace": "C:\\Users\\LWS\\.openclaw\\workspace-zx_assistant_01",
@@ -106,6 +113,13 @@
       "match": {
         "channel": "feishu",
         "accountId": "my_robot_01"
+      }
+    },
+    {
+      "agentId": "my_work_robot",
+      "match": {
+        "channel": "feishu",
+        "accountId": "my_work_robot"
       }
     },
     {
@@ -166,6 +180,10 @@
         "my_robot_01": {
           "appId": "cli_a93fd3bce2785cd5",
           "appSecret": "vnKlxTFj2pPTDS6cSh6nMhlM53ckMOAm"
+        },
+        "my_work_robot": {
+          "appId": "cli_a9340a6fd922dcc6",
+          "appSecret": "iEXatjRUBk8cCfedbOBlibZ6ZkYCJeN0"
         },
         "zx_assistant_01": {
           "appId": "cli_a934126ad938dbc6",

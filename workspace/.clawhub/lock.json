@@ -92,6 +92,14 @@
     "word-docx": {
       "version": "1.0.2",
       "installedAt": 1773934560686
+    },
+    "openclaw-tavily-search": {
+      "version": "0.1.0",
+      "installedAt": 1774139101231
+    },
+    "office-document-specialist-suite": {
+      "version": "1.0.2",
+      "installedAt": 1774139882711
     }
   }
 }
