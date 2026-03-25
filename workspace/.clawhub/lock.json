@@ -100,6 +100,14 @@
     "office-document-specialist-suite": {
       "version": "1.0.2",
       "installedAt": 1774139882711
+    },
+    "xiucheng-self-improving-agent": {
+      "version": "1.0.0",
+      "installedAt": 1774186802176
+    },
+    "self-improving-agent": {
+      "version": "3.0.5",
+      "installedAt": 1774187102453
     }
   }
 }

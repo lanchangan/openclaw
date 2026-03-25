@@ -8,7 +8,7 @@
       "name": "每日新闻与市场早报",
       "enabled": true,
       "createdAtMs": 1774099033259,
-      "updatedAtMs": 1774134473395,
+      "updatedAtMs": 1774393224335,
       "schedule": {
         "kind": "cron",
         "expr": "0 7 * * *",
@@ -30,14 +30,16 @@
         "bestEffort": true
       },
       "state": {
-        "nextRunAtMs": 1774220400000,
-        "lastRunAtMs": 1774134000028,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 473367,
+        "nextRunAtMs": 1774479600000,
+        "lastRunAtMs": 1774393200020,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 24315,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
-        "consecutiveErrors": 0
+        "consecutiveErrors": 3,
+        "lastErrorReason": "rate_limit",
+        "lastError": "⚠️ API rate limit reached. Please try again later."
       },
       "deleteAfterRun": false
     },
@@ -87,7 +89,7 @@
       "name": "装修任务检查-周一",
       "enabled": true,
       "createdAtMs": 1774099033292,
-      "updatedAtMs": 1774104016210,
+      "updatedAtMs": 1774224022156,
       "schedule": {
         "kind": "cron",
         "expr": "0 8 * * 1",
@@ -108,16 +110,16 @@
         "to": "ou_e7a32d874706bf82f2d409b0427b7e9e"
       },
       "state": {
-        "nextRunAtMs": 1774224000000,
-        "lastRunAtMs": 1774103993723,
+        "nextRunAtMs": 1774828800000,
+        "lastRunAtMs": 1774224000019,
         "lastRunStatus": "error",
         "lastStatus": "error",
-        "lastDurationMs": 22487,
-        "lastError": "⚠️ API rate limit reached. Please try again later.",
+        "lastDurationMs": 22137,
         "lastErrorReason": "rate_limit",
-        "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
-        "consecutiveErrors": 1
+        "consecutiveErrors": 3,
+        "lastError": "⚠️ API rate limit reached. Please try again later.",
+        "lastDelivered": true
       }
     }
   ]

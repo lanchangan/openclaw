@@ -1,12 +1,12 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.3.13",
-    "lastTouchedAt": "2026-03-14T16:41:35.177Z"
+    "lastTouchedAt": "2026-03-19T14:12:56.374Z"
   },
   "wizard": {
-    "lastRunAt": "2026-03-14T07:00:39.316Z",
+    "lastRunAt": "2026-03-19T14:12:56.339Z",
     "lastRunVersion": "2026.3.13",
-    "lastRunCommand": "onboard",
+    "lastRunCommand": "doctor",
     "lastRunMode": "local"
   },
   "auth": {
@@ -60,12 +60,6 @@
   },
   "tools": {
     "profile": "full"
-  },
-  "custom": {
-    "tavily_api_key": "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"
-  },
-  "tavily": {
-    "api_key": "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"
   },
   "bindings": [
     {
@@ -124,6 +118,7 @@
       "connectionMode": "websocket",
       "domain": "feishu",
       "groupPolicy": "open",
+      "requireMention": true,
       "accounts": {
         "default": {
           "appId": "cli_a92dc000da789cc2",
@@ -137,7 +132,8 @@
           "appId": "cli_a93fc496a2b89bde",
           "appSecret": "jUjnf9I9LKkG2GhXHGsPWc1z0hbM4JkJ"
         }
-      }
+      },
+      "groupAllowFrom": "[oc_959ee261398abd06dd44199eb5ec0f82]"
     }
   },
   "gateway": {

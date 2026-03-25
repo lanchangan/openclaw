@@ -10,7 +10,8 @@
   "usageStats": {
     "volcengine:default": {
       "errorCount": 0,
-      "lastUsed": 1774185259244
+      "lastUsed": 1774437299651,
+      "lastFailureAt": 1774437299633
     }
   }
 }
